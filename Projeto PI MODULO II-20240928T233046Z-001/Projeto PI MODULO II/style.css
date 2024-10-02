@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    background:  #3D3D3D;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Manrope", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+
+header {
+    background: #6408AF;
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 55px 0 25px;
+    
+
+
+
+
+    
+}
+
+.search-bar {
+    position: relative;
+    width: 280px;
+    
+    
+}
+
+.search-bar input {
+    width: calc(100% - 40px);
+    height: 40px ;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+.search-bar input::placeholder {
+    font-size: 11px ;
+}
+
+.search-bar input[type="search"]::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.search-bar button {
+    
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 55px;
+    cursor: pointer;
+    background-color: #ffff;
+    border-right: none ;
+    border: 5px solid #6408AF;
+    margin-left: -2px;
+    padding: 8px ;
+    
+
+
+
+}
+
+.search-bar button:hover {
+    background-color: #e7dcdc;
+    transition: 0.3s;
+    
+    
+}
+
+.bloco-anuncio-1 {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+.anuncio-1 {
+    background-color:#252323 ;
+    width: 1310px;
+    height: 120px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: end;
+
+   
+}
+.close-anuncio {
+    margin-right: 0.2%;
+    cursor: pointer;
+
+}
+
+.img-click {
+    
+    width: 260px;
+    height: auto;
+
+}
+.logo {
+    width: 100%;
+    height: auto;
+
+    
+}
+.carrossel-destaques {
+   
+    height: 784px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.destaque-1 {
+    background-color: #4b4b4b;
+    width: 1400px;
+    height: 730px;
+    position: absolute;
+    
+    
+    opacity: 1;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.conteudo-1 {
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 100px;
+    
+    
+    
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    align-items: center;
+    justify-content: end;
+    height: 600px;
+    padding-bottom: 5%;
+    
+}
+.imagem-esquerda {
+    width: 80%;
+    
+   
+}
+.descricao {
+    text-align: start;
+    width: 70%;
+    font-size: 1.1rem;
+    color: #ffff;
+    padding-left: 60px;
+    
+}
+
+.btn-filme-1 {
+    
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 50px;
+    
+
+
+}
+
+.btn-destaque {
+    height: 49%;
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 3px;
+    
+
+}
+
+#btn-play {
+    font-weight: bold;
+}
+#btn-info {
+    background-color: #757575;
+    color: #ffff;
+    gap: 10px;
+    position: relative;
+}
+
+.btn-destaque:hover {
+    
+    cursor: pointer;
+    transition: 0.4s;
+}
+#btn-play:hover {
+    background-color: rgb(174, 169, 169);
+    
+}
+#btn-info:hover {
+    background-color: #5a5a5a;
+}
+
+#floatingMessage {
+    position: absolute;
+    top: 555px;
+    left: 30px;
+    right: 700px;
+    background-color: #3D3D3D;
+    color: #ffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+
+.capa-destaque-1 {
+
+    width: 50%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+  
+   
+}
+
+.capa-filme-1 {
+    border-radius: 20px;
+    width: 55%;
+    height: 80%;
+    
+    
+}
+
+.bloco-botoes {
+    
+    width: 30% ;
+    height: 5%;
+    display: flex;
+    position: relative;
+    
+    
+    top: 691px;
+
+    
+}
+.btn-carrossel {
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+}
+.btn-c {
+    height: 12%;
+    width: 8%;
+    border-radius: 30px;
+    border: 0.1px solid #000;
+    cursor: pointer;
+    background-color: #252323;
+    
+}
+
+.btn-c:hover {
+    background-color: #6408AF;
+    width: 6%;
+    transition: 0.3s;
+    border: 0.1px solid #441c65;
+
+}
+
+.tituloCarrossel{
+    font-style: italic;
+    color: white;
+    font-size: 27px;
+    margin-top: 3%;
+    margin-left: 7%;
+}
