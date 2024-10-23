@@ -319,3 +319,27 @@ header {
     margin-top: 3%;
     margin-left: 7%;
 }
+/* Estilos para o contêiner de paginação */
+.splide__pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;  /* Espaçamento entre os botões */
+    margin-top: 20px;
+  }
+  
+  /* Estilos para cada botão de paginação */
+  .splide__pagination__page {
+    width: 30px !important;             /* Largura dos botões de paginação */
+    height: 5px !important;             /* Altura dos botões de paginação */
+    background-color: #252323 !important; /* Cor de fundo para os botões inativos */      /* Pequeno arredondamento nos cantos */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave na mudança de cor */
+    border-radius: 10px !important;
+}
+  
+  /* Estilo para o botão de paginação ativo */
+  .splide__pagination__page.is-active {
+    background-color: #6408AF !important; /* Cor de fundo roxa para o botão ativo */
+  }
+  
+  
