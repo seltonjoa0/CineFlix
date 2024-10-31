@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="libs/splide-4.1.3/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>CinePirata - </title>
+</head>
+<body>
+    <header>
+        <a class="img-click" href="index.html"><img class="logo" src="imagens/Logo-CinePirata.png" alt="Logo do CinePirata"></a>
+        <form class="search-bar">
+            <input type="search" name="#" placeholder="Pesquisar" spellcheck="false">
+            <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#6408AF"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></button>
+        </form>
+    </header>
+
+    <div class="bloco-anuncio-1">
+        <div class="anuncio-1">
+            <svg class="close-anuncio" xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="20px" fill="#FFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            <img src="imagens/anuncio brazino.jpg" alt="">
+        </div>
+    </div>
+    
+    <div class="splide" id="carrossel-principal">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+                <div class="carrossel-destaques">
+                    <div class="destaque-1">
+                        
+                        <div class="conteudo-1">
+                            <div  class="esquerda">
+            
+                                <img class="imagem-esquerda" src="assets/deadpoolewolverine-titulo.png" alt="titulo Deadpool e Wolverine" width="500px">
+                                <p class="descricao">Wolverine está se recuperando quando cruza seu caminho com Deadpool. Juntos, eles formam uma equipe e enfrentam um inimigo em comum.</p>
+                                <div class="btn-filme-1">
+                                    <button class="btn-destaque" id="btn-play"><svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#000000"><path d="M320-202v-560l440 280-440 280Z"/></svg><span>Assistir</span></button>
+                                    <button class="btn-destaque" id="btn-info"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#FFFFFF"><path d="M448.67-280h66.66v-240h-66.66v240Zm31.32-316q15.01 0 25.18-9.97 10.16-9.96 10.16-24.7 0-15.3-10.15-25.65-10.16-10.35-25.17-10.35-15.01 0-25.18 10.35-10.16 10.35-10.16 25.65 0 14.74 10.15 24.7 10.16 9.97 25.17 9.97Zm.19 516q-82.83 0-155.67-31.5-72.84-31.5-127.18-85.83Q143-251.67 111.5-324.56T80-480.33q0-82.88 31.5-155.78Q143-709 197.33-763q54.34-54 127.23-85.5T480.33-880q82.88 0 155.78 31.5Q709-817 763-763t85.5 127Q880-563 880-480.18q0 82.83-31.5 155.67Q817-251.67 763-197.46q-54 54.21-127 85.84Q563-80 480.18-80Zm.15-66.67q139 0 236-97.33t97-236.33q0-139-96.87-236-96.88-97-236.46-97-138.67 0-236 96.87-97.33 96.88-97.33 236.46 0 138.67 97.33 236 97.33 97.33 236.33 97.33ZM480-480Z"/></svg>Mais informações</button>
+                                    <div id="floatingMessage" class="hidden">Deadpool & Wolverine reúne o icônico mercenário tagarela Wade Wilson (Ryan Reynolds) e o poderoso mutante Wolverine (Hugh Jackman) em uma aventura explosiva, escrita e produzida pelos mesmos talentos por trás de Deadpool (2016) e Deadpool 2 (2018). Wade Wilson desfruta de um momento de aparente calma ao lado de Vanessa (Morena Baccarin) e seus amigos e, em contra partida, Wolverine se recupera de seus ferimentos. Um têm os seus caminhos cruzados com o outro, dando início a uma improvável aliança. Juntos, eles enfrentam um inimigo formidável em comum, desencadeando uma jornada repleta de ação, humor e reviravoltas surpreendentes. Deadpool & Wolverine promete ser uma aventura épica, cheia de referências aos quadrinhos e momentos de pura adrenalina, proporcionando aos fãs uma experiência única e inesquecível no universo dos super-heróis.</div>
+                                </div>
+                            </div>
+                            
+            
+                            <div class="capa-destaque-1">
+                                <img class="capa-filme-1" src="assets/capa-deadpool-e-wolverine.jpg" alt="Capa do filme Deadpool & Wolverine">
+                            </div>
+                            
+            
+                            
+                            
+                        </div>
+                        
+                       
+            
+                      
+                     
+                        
+            
+                        
+                    </div>
+            </div>
+            </li>
+            <li class="splide__slide">
+                <div class="carrossel-destaques">
+                    <div class="destaque-1">
+                        
+                        <div class="conteudo-1">
+                            <div  class="esquerda">
+            
+                                <img class="imagem-esquerda" src="assets/Creed_3-titulo.png" alt="titulo Creed 3" width="500px" style="height: 150px; width: 400px; margin-bottom: 50px;">
+                                <p class="descricao">Adonis Creed prosperou na sua vida familiar ao mesmo tempo em que dominou o mundo do boxe. Mas, ele enfrentará um desafio enorme quando seu amigo de infância sai da cadeia e o desafia para uma luta determinante.</p>
+                                <div class="btn-filme-1">
+                                    <button class="btn-destaque" id="btn-play"><svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#000000"><path d="M320-202v-560l440 280-440 280Z"/></svg><span>Assistir</span></button>
+                                    <button class="btn-destaque" id="btn-info"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#FFFFFF"><path d="M448.67-280h66.66v-240h-66.66v240Zm31.32-316q15.01 0 25.18-9.97 10.16-9.96 10.16-24.7 0-15.3-10.15-25.65-10.16-10.35-25.17-10.35-15.01 0-25.18 10.35-10.16 10.35-10.16 25.65 0 14.74 10.15 24.7 10.16 9.97 25.17 9.97Zm.19 516q-82.83 0-155.67-31.5-72.84-31.5-127.18-85.83Q143-251.67 111.5-324.56T80-480.33q0-82.88 31.5-155.78Q143-709 197.33-763q54.34-54 127.23-85.5T480.33-880q82.88 0 155.78 31.5Q709-817 763-763t85.5 127Q880-563 880-480.18q0 82.83-31.5 155.67Q817-251.67 763-197.46q-54 54.21-127 85.84Q563-80 480.18-80Zm.15-66.67q139 0 236-97.33t97-236.33q0-139-96.87-236-96.88-97-236.46-97-138.67 0-236 96.87-97.33 96.88-97.33 236.46 0 138.67 97.33 236 97.33 97.33 236.33 97.33ZM480-480Z"/></svg>Mais informações</button>
+                                    <div id="floatingMessage" class="hidden">Em Creed III, continuação do longa de 2018, Michael B. Jordan volta a interpretar Adonis Creed. Depois de dominar o mundo do boxe, Adonis Creed vem prosperando tanto na carreira quanto na vida familiar. Quando um amigo de infância e ex-prodígio do boxe, Damian (Jonathan Majors), ressurge depois de cumprir uma longa sentença na prisão, ele está ansioso para provar que merece sua chance no ringue. Damian pede a ajuda de Creed para que ele o ajude a voltar para os campeonatos de luta. Apesar de tudo, dezoito anos na prisão mudam a pessoa e Damian não está nada satisfeito que Creed "tomou seu lugar" no ringue de boxe. Dois velhos amigos então vão lutar para enfrentar seus passados juntos e enfrentar o futuro que os aguarda. Para acertar as contas, Adonis deve colocar seu futuro em risco para lutar contra Damian - um lutador que não tem nada a perder.</div>
+                                </div>
+                            </div>
+                            
+            
+                            <div class="capa-destaque-1">
+                                <img class="capa-filme-1" src="assets/capa-creed3.jpg" alt="Capa do filme Deadpool & Wolverine" >
+                            </div>
+                            
+            
+                            
+                            
+                        </div>
+                        
+                       
+            
+                      
+                     
+                        
+            
+                        
+                    </div>
+            </div>
+            </li>
+            <li class="splide__slide"></li>
+          </ul>
+        </div>
+    </div>
+    <h1 class="tituloCarrossel">Escolha o filme por categoria</h1>
+    <div class="splide" id="carrossel-categorias1"> 
+        <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="filmesPorCategoria">
+                    
+                </div>
+              </li>
+              <li class="splide__slide">Slide B</li>
+              <li class="splide__slide">Slide C</li>
+            </ul>
+          </div>
+    </div>
+
+
+
+  <script src="libs/splide-4.1.3/dist/js/splide.min.js"></script>
+  <script src="script.js"></script>  
+</body>
+</html>
