@@ -99,7 +99,7 @@ header {
 
 .anuncio-1 {
     background-color:#252323 ;
-    width: 1310px;
+    width: 95%;
     height: 120px;
     margin-top: 2%;
     display: flex;
@@ -317,8 +317,52 @@ header {
     color: white;
     font-size: 27px;
     margin-top: 3%;
-    margin-left: 7%;
+    margin-left: 15%;
 }
+.bloco-carrosel1 {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.bloco-filmes {
+    width: 70%;
+    height: 90%;
+    
+}
+
+.bloco-acao {
+    width: 17%;
+    height: 100%;
+    background-color: #262626;
+    border-radius: 0.5rem;
+    
+    
+}
+
+.bloco-acao img {
+    width: 40%;
+    height: 45%;
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Estilos para o contêiner de paginação */
 .splide__pagination {
     display: flex;
